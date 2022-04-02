@@ -92,9 +92,9 @@ function createCats(cats) {
     return html;
 }
 
-const addHTML = createCats(cats);
+const addHtml = createCats(cats);
 
 const catContainer = document.querySelector(".cat-container");
-catContainer.innerHTML = addHTML;
+catContainer.innerHTML = addHtml;
 
 
